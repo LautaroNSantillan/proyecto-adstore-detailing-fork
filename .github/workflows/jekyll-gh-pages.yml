@@ -33,7 +33,7 @@ jobs:
       - name: Build with Jekyll
         uses: actions/jekyll-build-pages@v1
         with:
-          source: ./src/resources/static/web
+          source: ./src/main/resources/static/web
           destination: ./_site
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
